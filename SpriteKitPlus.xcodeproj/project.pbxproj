@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5032211D186DBD5E00D95640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5032211C186DBD5E00D95640 /* Foundation.framework */; };
+		50322122186DBD5E00D95640 /* SpriteKitPlus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 50322121186DBD5E00D95640 /* SpriteKitPlus.h */; };
+		50322146186DBF1100D95640 /* SKNode+SKPIndexOfChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322143186DBF1100D95640 /* SKNode+SKPIndexOfChild.m */; };
+		50322147186DBF1100D95640 /* SKNode+SKPInsertChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 50322145186DBF1100D95640 /* SKNode+SKPInsertChild.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50322117186DBD5E00D95640 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				50322122186DBD5E00D95640 /* SpriteKitPlus.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50322119186DBD5E00D95640 /* libSpriteKitPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSpriteKitPlus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5032211C186DBD5E00D95640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50322120186DBD5E00D95640 /* SpriteKitPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKitPlus-Prefix.pch"; sourceTree = "<group>"; };
+		50322121186DBD5E00D95640 /* SpriteKitPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteKitPlus.h; sourceTree = "<group>"; };
+		5032212A186DBD5E00D95640 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5032212D186DBD5E00D95640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		50322142186DBF1100D95640 /* SKNode+SKPIndexOfChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKPIndexOfChild.h"; sourceTree = "<group>"; };
+		50322143186DBF1100D95640 /* SKNode+SKPIndexOfChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKPIndexOfChild.m"; sourceTree = "<group>"; };
+		50322144186DBF1100D95640 /* SKNode+SKPInsertChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKPInsertChild.h"; sourceTree = "<group>"; };
+		50322145186DBF1100D95640 /* SKNode+SKPInsertChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKPInsertChild.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50322116186DBD5E00D95640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5032211D186DBD5E00D95640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50322110186DBD5E00D95640 = {
+			isa = PBXGroup;
+			children = (
+				5032211E186DBD5E00D95640 /* SpriteKitPlus */,
+				5032211B186DBD5E00D95640 /* Frameworks */,
+				5032211A186DBD5E00D95640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5032211A186DBD5E00D95640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50322119186DBD5E00D95640 /* libSpriteKitPlus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5032211B186DBD5E00D95640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5032211C186DBD5E00D95640 /* Foundation.framework */,
+				5032212A186DBD5E00D95640 /* XCTest.framework */,
+				5032212D186DBD5E00D95640 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5032211E186DBD5E00D95640 /* SpriteKitPlus */ = {
+			isa = PBXGroup;
+			children = (
+				50322120186DBD5E00D95640 /* SpriteKitPlus-Prefix.pch */,
+				50322121186DBD5E00D95640 /* SpriteKitPlus.h */,
+				50322142186DBF1100D95640 /* SKNode+SKPIndexOfChild.h */,
+				50322143186DBF1100D95640 /* SKNode+SKPIndexOfChild.m */,
+				50322144186DBF1100D95640 /* SKNode+SKPInsertChild.h */,
+				50322145186DBF1100D95640 /* SKNode+SKPInsertChild.m */,
+			);
+			name = SpriteKitPlus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50322118186DBD5E00D95640 /* SpriteKitPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5032213C186DBD5E00D95640 /* Build configuration list for PBXNativeTarget "SpriteKitPlus" */;
+			buildPhases = (
+				50322115186DBD5E00D95640 /* Sources */,
+				50322116186DBD5E00D95640 /* Frameworks */,
+				50322117186DBD5E00D95640 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitPlus;
+			productName = SpriteKitPlus;
+			productReference = 50322119186DBD5E00D95640 /* libSpriteKitPlus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50322111186DBD5E00D95640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = McZonk;
+			};
+			buildConfigurationList = 50322114186DBD5E00D95640 /* Build configuration list for PBXProject "SpriteKitPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50322110186DBD5E00D95640;
+			productRefGroup = 5032211A186DBD5E00D95640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50322118186DBD5E00D95640 /* SpriteKitPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50322115186DBD5E00D95640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50322147186DBF1100D95640 /* SKNode+SKPInsertChild.m in Sources */,
+				50322146186DBF1100D95640 /* SKNode+SKPIndexOfChild.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5032213A186DBD5E00D95640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5032213B186DBD5E00D95640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5032213D186DBD5E00D95640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SpriteKitPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5032213E186DBD5E00D95640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SpriteKitPlus.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpriteKitPlus-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50322114186DBD5E00D95640 /* Build configuration list for PBXProject "SpriteKitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5032213A186DBD5E00D95640 /* Debug */,
+				5032213B186DBD5E00D95640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5032213C186DBD5E00D95640 /* Build configuration list for PBXNativeTarget "SpriteKitPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5032213D186DBD5E00D95640 /* Debug */,
+				5032213E186DBD5E00D95640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50322111186DBD5E00D95640 /* Project object */;
+}
